@@ -383,7 +383,7 @@ var game = {
     console.log('adding $');
     $('#add-money').on('click', function(eventObject) {
       eventObject.stopImmediatePropagation();
-      alert('$1,000 has automatically been debited from your PayPal account.');
+      alert('Thanks for using our iDNA technology to confirm your identity! $1,000 has been debited from your PayPal account.');
       game.player.bankroll += 1000;
       game.views.renderBankroll();
     });
